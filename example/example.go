@@ -8,9 +8,9 @@ import (
 
 func main() {
 	host := "127.0.0.1"
-	port := 8021
-	username := "test"
-	password := "test"
+	port := 2121
+	username := "blink"
+	password := "1234"
 
 	files := map[string]*memory.MemoryFile{
 		"/": &memory.MemoryFile{graval.NewDirItem(""), nil},
